@@ -51,6 +51,13 @@
               android:targetClass="com.android.phone.BlacklistSetting" />
   </PreferenceScreen>
 
+  <CheckBoxPreference
+            android:key="button_calllog_after_call"
+            android:title="@string/calllog_after_call"
+            android:summary="@string/calllog_after_call_summary"
+            android:persistent="true"
+            android:defaultValue="false" />
+
   <PreferenceScreen
       android:key="button_voicemail_category_key"
       android:title="@string/voicemail"
