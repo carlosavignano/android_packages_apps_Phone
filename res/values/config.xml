@@ -119,4 +119,8 @@
     <bool name="config_apn_expand" translatable="false">true</bool>
     <bool name="config_operator_selection_expand" translatable="false">true</bool>
     <bool name="config_prefer_2g" translatable="false">true</bool>
+
+    <!-- LTE/CDMA network mode to use for toggleLTE(true). -->
+    <integer name="toggleLTE_lte_cdma_nt_mode">-1</integer>
+
 </resources>
